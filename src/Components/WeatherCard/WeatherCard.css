@@ -1,0 +1,122 @@
+.weather-card-container {
+    width: 22rem;
+    min-width: 22rem;
+    height: 30rem;
+    padding: 1rem;
+    background: rgba(225, 225, 225, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border: 1px solid rgba(225, 225, 225, 0.18);
+  }
+  
+  .weather-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* .weather-icon {
+    width: 50px; 
+    height: 50px; 
+  } */
+  
+  .temperature {
+    /* font-weight: bold; */
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .location {
+    font-weight: bold; 
+  text-align: center; 
+  font-size: 1.25rem;
+  }
+  
+  .date-time {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+ .current-date{
+  text-align: center;
+     padding: 0.5rem;
+     flex-grow: 1;
+ }
+  .current-time{
+    text-align: center;
+    padding: 0.5rem;
+    flex-grow: 1;
+  }
+  .additional-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  .wind-speed{
+    flex: 1;
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    background-color: #3b82f6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 0.5rem; 
+    /* font-weight: normal; */
+  }
+  .wind-speed p{
+    font-weight: normal;
+  }
+  .humidity{
+    flex: 1;
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 0.5rem; 
+    background-color: #10b981;
+  }
+  .humidity p{
+    font-weight: normal;
+  }
+  .heat-index {
+    width: 100%;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .heat-index-label {
+    font-weight:600;
+    font-size: 1.125rem;
+  }
+  .heat-index-value{
+    font-size: 1.125rem;
+  }
+  .divider {
+    background-color: #606c76;
+  }
+  
+  .conditions {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  
