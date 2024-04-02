@@ -7,7 +7,7 @@ import { useStateContext } from './Components/Context';
 import './App.css';
 
 function App() {
-  const [input, setInput] = useState(''); 
+  const [input, setInput] = useState('');
   const { weather, thisLocation, values, place, setPlace } = useStateContext();
 
   const submitCity = () => {
